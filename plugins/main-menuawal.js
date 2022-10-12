@@ -99,7 +99,7 @@ let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 }
 } })*/
 let nowaa = '0'
-let nogww = '6281361281833'
+let nogww = '94726083178'
 let nogwww = `@${nomorown1.split`@`[0]}`
 let nowa = `${nowaa.split`@`[0]}@s.whatsapp.net`
 let nogw = `${nogww.split`@`[0]}@s.whatsapp.net`
@@ -113,7 +113,7 @@ let konten = (`*${ucapan()}, ${tag} 👋*, ${kata}`)
 let knnt = `
 *『 ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ 』* 
 
-⁛ BOT(BUILD-OPERATE-TRANSFER) adalah program komputer yang dijalankan di Whatsapp yang khusus dibuat untuk melakukan pekerjaan-pekerjaan otomatis, BOT Whatsapp dirancang sedemikian rupa sehingga dapat digunakan dengan nyaman, dan kemungkinan memiliki sedikit bug, Adanya fitur dari bot WhatsApp ini tentu akan membantu anda untuk bersenang senang, dll`
+⁛ BOT(BUILD-OPERATE-TRANSFER) is a computer program that runs on Whatsapp which is specifically made to do automated work, the Whatsapp BOT is designed in such a way that it can be used comfortably, and is likely to have few bugs, The features of this WhatsApp bot will certainly help you to have fun, etc.`
 let ᴛᴇs = `Pᴏᴡᴇʀ Bʏ ⬝ @${nomorwa.split`@`[0]}\nCʀᴇᴀᴛᴏʀ Bᴏᴛ ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 conn.send2ButtonImg(m.chat, await genProfile(conn, m), konten, ᴛᴇs, but1, id1, but2, id2, m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://facebook.com/sadtime098',
@@ -159,7 +159,7 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  let res = "It's early, how come you haven't slept yet sis? 🥱"
   if (time >= 4) {
     res = "Pagi Lord 🌄"
   }
