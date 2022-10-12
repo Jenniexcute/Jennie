@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙;;;\nFN:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nORG:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nTITLE:\nitem1.TEL;waid=6281361281833:+62 813-6128-1833\nitem1.X-ABLabel:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Lakshan⸙;;;\nFN:Lakshan⸙\nORG:Lakshan⸙\nTITLE:\nitem1.TEL;waid=94726083178:+94726083178\nitem1.X-ABLabel:Lakshan⸙\nX-WA-BIZ-DESCRIPTION:${htjava}not receiving contact save!!\nX-WA-BIZ-NAME:Lakshan⸙\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
   let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
@@ -22,49 +22,49 @@ let teksnomor = (
 )
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown1 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
-let teksbio = `┆⫹⫺ 💌 Nama : Aldi
-┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
-┆⫹⫺ ♂️ Gender : Pria
-┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 16 - 10 - 2007
-┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : 𝙼𝚘𝚍𝚒𝚏𝚒𝚔𝚊𝚜𝚒 𝚙𝚎𝚛𝚊𝚗𝚐𝚔𝚊𝚝 𝚕𝚞𝚗𝚊𝚔
-┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Sumatera Utara
+let teksbio = `┆⫹⫺ 💌 Nama : Lakshan
+┆⫹⫺ ✉️ Nama RL : 
+┆⫹⫺ ♂️ Gender : male
+┆⫹⫺ 🕋 Agama : Budddihst
+┆⫹⫺ ⏰ Tanggal lahir : 31 - 12 - 2005
+┆⫹⫺ 🎨 Umur : 16
+┆⫹⫺ 🧮 Kelas : 
+┆⫹⫺ 🧩 Hobby : repair vehicles
+┆⫹⫺ 💬 Sifat : 
+┆⫹⫺ 🗺️ Tinggal : tokyo,japan
 └––––––––––––·•
 `
 let ppown2 = await conn.profilePictureUrl(nomorown2 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : Aisyah
-┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
-┆⫹⫺ ♂️ Gender : Wanita
-┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 07 - 05 - 2007
-┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : Banyak
-┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Bengkulu
+let teksbio2 = `┆⫹⫺ 💌 Nama :
+┆⫹⫺ ✉️ Nama RL : 
+┆⫹⫺ ♂️ Gender : 
+┆⫹⫺ 🕋 Agama : 
+┆⫹⫺ ⏰ Tanggal lahir
+┆⫹⫺ 🎨 Umur : 
+┆⫹⫺ 🧮 Kelas : 
+┆⫹⫺ 🧩 Hobby : 
+┆⫹⫺ 💬 Sifat : 
+┆⫹⫺ 🗺️ Tinggal : 
 └––––––––––––·•
 `
 
   let tek = `⟣⟞⟚⟝ 〨⎣ *Nᴏᴛᴇ* ⎤〨 ⟞⟚⟝⟢
 ┆
-𐚀 Oᴡɴᴇʀ Tɪᴅᴀᴋ Rᴇsᴘᴏɴᴅ Cʜᴀᴛ Aɴᴇʜ
-𐚀 Oᴡɴᴇʀ Bᴇʀʜᴀᴋ Bʟᴏᴄᴋ Sɪᴀᴘᴀ Sᴀᴊᴀ
-𐚀 Gᴀᴋ Rᴇsᴘᴏɴᴅ Kᴀʟᴏ Mɪɴᴛᴀ Sᴄ
-𐚀 Eᴛɪᴋᴀɴʏᴀ Dɪᴘᴀᴋᴇ
-𐚀 Cʜᴇᴛ Cᴇᴡᴇ Gᴡ Aɴᴇʜ Aɴᴇʜ Gᴡ Bᴜᴀᴛ Tɪᴅᴜʀ Lᴜ
-𐚀 Cʜᴇᴛ Aɴᴇʜ Gᴀᴋ Jᴇʟᴀs Bᴀɴ/Bʟᴏᴄᴋ
-𐚀 Cᴀʟʟ Bʟᴏᴄᴋ\n⫹ Kᴇᴛɪ *.rules* Uɴᴛᴜᴋ Mᴇʟɪʜᴀᴛ Rᴜʟᴇs Sᴇʟᴇɴɢᴋᴀᴘɴʏ ⫺`
+𐚀 the owner doesn't respond to the strange chat
+𐚀 owner has the right to block anyone
+𐚀 doesn't respond if you ask for sc
+𐚀 ethics are used
+𐚀 my girl chat is weird i make you sleep
+𐚀 strange cheats, the tires/blocks are not clear
+𐚀 call block/n<type .rules to see more rules ⫺`
 const sections = 
 [{
 title: `⫹⫺ Oᴛʜᴇʀ ⫹⫺`,
 rows: [
-{title: "⸙ Kontak", rowId: ".owner kontak"},
-{title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata Aldi", rowId: ".owner bio"},
-{title: "⸙ Biodata Aisyah", rowId: ".owner bio2"},
+{title: "⸙ Contact", rowId: ".owner kontak"},
+{title: "⸙ Number", rowId: ".owner nomor"},
+{title: "⸙ Biodata Lakshan", rowId: ".owner bio"},
+{title: "⸙ Biodata ", rowId: ".owner bio2"},
 {title: "⸙ Script", rowId: ".sc"},
 ]}, {
 title: `⬔ Sᴜᴘᴘᴏʀᴛ Mᴇ ⬔`,
