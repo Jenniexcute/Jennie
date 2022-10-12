@@ -209,49 +209,49 @@ let mpt = clockString(_mpt)
 const sections = [{
 title: `${htki} MAIN ${htka}`,
 rows: [
-{title: `⚡ ${emot} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
-{title: `💌 ${emot} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+{title: `⚡ ${emot} SPEED BOT`, rowId: ".speed", description: "Displays BOT response speed"},
+{title: `💌 ${emot} OWNER BOT`, rowId: ".owner", description: "Showing the list of BOT owners"},
 {title: `📔 ${emot} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 ]
 },{
 title: `${htki} SUPPORT ${htka}`,
 rows: [
-{title: `🔖 ${emot} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-{title: `🌟 ${emot} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-{title: `💹 ${emot} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+{title: `🔖 ${emot} SEWA`, rowId: ".sewa", description: "Displays a list of BOT rental prices"},
+{title: `🌟 ${emot} BUY PREMIUM`, rowId: ".premium", description: "Show premium price list"},
+{title: `💹 ${emot} DONASI`, rowId: ".donasi", description: 'Support BOT for faster response'},
 ]
 },{
 title: `${htki} MENU ${htka}`,
 rows: [
-{title: `${emot} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+{title: `${emot} All`, rowId: ".? all", description: "Show all commands of BOT"},
 {title: `${emot} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-{title: `${emot} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-{title: `${emot} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-{title: `${emot} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-{title: `${emot} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-{title: `${emot} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-{title: `${emot} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-{title: `${emot} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+{title: `${emot} Exp`, rowId: ".? xp", description: "Let's increase your rank!"},
+{title: `${emot} Game`, rowId: ".? game", description: "The game is fun, it's fun >-<"},
+{title: `${emot} Fun`, rowId: ".? fun", description: "Family-safe features"},
+{title: `${emot} Kerang`, rowId: ".? kerangajaib", description: "Ask the club president"},
+{title: `${emot} Quotes`, rowId: ".? quotes", description: "Random Inspiration"},
+{title: `${emot} Anime`, rowId: ".? anime", description: "Are you weed?"},
+{title: `${emot} Nsfw`, rowId: ".? nsfw", description: "Tch, basic sagne"},
 {title: `${emot} Premium`, rowId: ".? premium", description: "Only premium Users"},
-{title: `${emot} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-{title: `${emot} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-{title: `${emot} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-{title: `${emot} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-{title: `${emot} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-{title: `${emot} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-{title: `${emot} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-{title: `${emot} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-{title: `${emot} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
+{title: `${emot} Anonymous Chats`, rowId: ".? anonymous", description: "Talk to strangers"},
+{title: `${emot} Al-Quran`, rowId: ".? quran", description: "Let's repent sis"},
+{title: `${emot} Internet`, rowId: ".? internet", description: "Search something on BOT"},
+{title: `${emot} Berita`, rowId: ".? berita", description: "Find the latest news"},
+{title: `${emot} Downloaders`, rowId: ".? downloader", description: "Download something on BOT"},
+{title: `${emot} Stikers`, rowId: ".? stiker", description: "Create Stickers on BOT"},
+{title: `${emot} Nulis`, rowId: ".? nulis", description: "Why are you lazy?"},
+{title: `${emot} Audio`, rowId: ".? audio", description: "Change Audio with Filters"},
+{title: `${emot} Sound Menu`, rowId: ".soundmenu", description: "120 Sound Group"},
 {title: `${emot} Group`, rowId: ".? group", description: "Only Groups"},
 {title: `${emot} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-{title: `${emot} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-{title: `${emot} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+{title: `${emot} Database`, rowId: ".? database", description: "Save something on BOT"},
+{title: `${emot} Tools`, rowId: ".? tools", description: "Maybe these tools can help?"},
 {title: `${emot} Info`, rowId: ".? info", description: "Info info BOT"},
 {title: `${emot} Owner`, rowId: ".? owner", description: "Owner Only!"},
-{title: `\n${emot} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+{title: `\n${emot} No Category`, rowId: ".? nocategory", description: "Features without categories!"},
 ] },
 ]
-let psan = 'bagaimana kabarmu?'
+let psan = 'how are you?'
 let usrs = db.data.users[m.sender]
 let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg'), thumbnail: fs.readFileSync('./thumbnail.jpg'),sendEphemeral: true}}}
 let tek = `*${ucapan()} @${m.sender.split`@`[0]}*
@@ -278,7 +278,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
 text: tek,
-footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+footer: '📮 *Note:* If you find bugs, errors or difficulties in use, please report/ask the Owner',
 mentions: await conn.parseMention(tek),
 title: `${htki} *LIST MENU* ${htka}`,
 buttonText: `CLICK HERE ⎙`, 
@@ -470,13 +470,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'www.instagram.com/hyuura-official',
+ mediaUrl: 'www.instagram.com/Lakshan.O_o',
     mediaType: 2, 
-    description: 'www.instagram.com/hyuura-official',
+    description: 'www.instagram.com/Lakshan.O_o',
     title: "Now Playing...",
     body: wm,
     thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
-    sourceUrl: 'www.instagram.com/hyuura-official'
+    sourceUrl: 'www.instagram.com/Lakshan.O_o'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
