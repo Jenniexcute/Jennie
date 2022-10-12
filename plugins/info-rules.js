@@ -11,22 +11,16 @@ let flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-let rules = `➯ *Tɪᴅᴀᴋ Sᴘᴀᴍ Bᴏᴛ*
- ⟬Kᴀʟᴏ Uᴅᴀʜ Dɪ Bᴀɴ/Bʟᴏᴋ Jᴀɴɢᴀɴ Nɢᴇᴍɪs Mɪɴᴛᴀ Uɴʙᴀɴ/Uɴʙʟᴏᴋ⟭
-➯ *Tɪᴅᴀᴋ Mᴇɴᴊᴜᴀʟ Nᴏᴍᴏʀ Bᴏᴛ!*
-⟬Mɪɴɪᴍᴀʟ Mᴀɴᴅɪ Wᴀᴊɪʙ Dᴜʟᴜ Bʀᴏ Bɪᴀʀ Tᴀᴜ Dɪᴍᴀɴᴀ Lᴇᴛᴀᴋ Kᴇsᴀʟᴀʜᴀɴ Lᴜ⟭
+let rules = `➯ *Do not spam to Bᴏᴛ*
+ ⟬⟭
+➯ *your number will ban!*
+⟬Never you can not use bot again!⟭
 ➯ *Cᴀʟʟ AᴜᴛᴏBʟᴏᴄᴋ*
-⟬Mᴀᴍᴘᴜs Lᴜ⟭
-➯ *Mᴀᴋsᴀ Mɪɴᴛᴀ Sᴄʀɪᴘᴛ Bᴏᴛ*
-⟬Eᴍᴀɴɢ Nʏᴀ Lᴜ Sᴀᴘᴀ? Uᴅʜ Mɪɴᴛᴀ Mᴀᴋsᴀ Pᴜʟᴀ⟭
-➯ *Hɪɴᴀ Bᴏᴛ Gᴡ*
-⟬Nɢᴇʜɪɴᴀ Eʟɪᴛ,Bᴜᴋᴛɪ Sᴜʟɪᴛ⟭
-➯ *Bot Delay/Lama Bles?*
-⟬Lu Di Chet Ayang Lu Aja Lama Blesny⟭
-➯ *Maksa Masukin Gc Lu*
-⟬Minimal Donasi Lah Cuy Biar Cuan Gw⟭
-➯ *Chet Aneh² Di Cwe Gw, Gw Block Lu Hdup²*
-⟬Mɪɴɪᴍᴀʟ Nɢᴏᴛᴀᴋ⟭
+⟬if you call bot,think about it again⟭
+➯ *bot is not provide hers script*
+⟬then do not bothered for bot⟭
+
+⟬this is minimum rules of bot!⟭
 ❏┳━━◩
 ┍┛
 ┆⟥⟤ ➠ (${global.bottime})
@@ -36,7 +30,7 @@ conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`
     mediaUrl: 'https://wa.me/p/5489299044451325/6281361281833',
     mediaType: 2, 
     description: sgc,
-    title: "Sᴇᴡᴀ Cᴇᴋ Dɪsɪɴɪ Cᴜʏ!!!",
+    title: "rent check here,but this bot is always for free!!!",
     body: wm,
     thumbnail: fs.readFileSync('./media/qr.png'),
     sourceUrl: 'https://wa.me/p/5489299044451325/6281361281833',
