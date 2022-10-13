@@ -80,58 +80,58 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6282376267531', 'Aisyah', true],
-['6281361281833', 'Aldi', true]
+['94726083178', 'Lakshan', true],
+['6281361281833', 'Aldi', false]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6283838186170'
-global.nomorown = '6281361281833'
-global.nomorown1 = '6281361281833'
-global.nomorown2 = '6282376267531'
+global.nomorbot = '94759738402'
+global.nomorown = '94726083178'
+global.nomorown1 = '94726083178'
+global.nomorown2 = '94726083178'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Aʟᴅɪ X Aɪsʏᴀʜ'
-global.namebot = '​ 𝐘𝐮𝐬𝐡𝐢𝐧𝐨 𝐌𝐝'
-global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝐘𝐮𝐬𝐡𝐢𝐧𝐨 𝐌𝐝'
+global.author = 'Lakshan x jennie'
+global.namebot = '​ Jennie MD'
+global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 Jennie MD'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = '𝒀𝒖𝒔𝒉𝒊𝒏𝒐 𝑴𝒅 '
+global.wm = 'Jennie 𝑴𝒅 '
 global.watermark = wm
-global.wm2 = '𝒀𝒖𝒔𝒉𝒊𝒏𝒐 𝑴𝒅 '
+global.wm2 = 'Jennie 𝑴𝒅 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉`
-global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
-global.stickauth = `© Yushino MD`
+global.titlebot = `Lakshan x Jennie`
+global.stickpack = 'Lakshan x Jennie'
+global.stickauth = `© JENNIE MD`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Aldi'
-global.nameown2 = 'Aisyah'
+global.nameown1= 'Lakshan'
+global.nameown2 = 'Lakshan'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.Linkgc = 'Bentar'
-global.lynk = 'https://lynk.id/hyuuraofc'
+global.Linkgc = 'Jennie'
+global.lynk = 'https://lynk.id'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
-global.sgh = 'https://github.com/hyuura-official' //github
-global.sgc = 'https://chat.whatsapp.com/LmbsOrpSGEpDdFdpuukmmP' //group whatsapp
+global.sig = 'https://instagram.com/Lalshan.O_O'
+global.sgh = 'https://github.com/cherryxcute' //github
+global.sgc = 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg'
+global.snh = 'https://youtube.com/channel/LNO_o'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0813 6128 1833'
+global.pdana = ''
 global.povo = '-'
-global.pgopay = '0813 6128 1833'
+global.pgopay = ''
 global.plinkaja = '-' //link aja
-global.ppulsa = '0813 6128 1833'
-global.ppulsa2 = '083838186170'
-global.psaweria = 'https://saweria.co/hyuura'
+global.ppulsa = ''
+global.ppulsa2 = ''
+global.psaweria = 'https://saweria.co'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -162,9 +162,9 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.eror = 'Mohon Maaf Server Kami Sedang Error!'
+global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝...!!'
+global.wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝...!!'
+global.eror = 'that is m*f server error...!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -343,9 +343,9 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/hyuura-official"
+global.urlnya = "https://www.instagram.com/LakshanO_o"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '0813 6128 1833'
+global.phn = '0726083178'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
