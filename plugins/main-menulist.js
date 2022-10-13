@@ -475,12 +475,12 @@ ptt: false, seconds: 0,contextInfo: {
     description: 'www.instagram.com/Lakshan.O_o',
     title: "Now Playing...",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/e9446e3e4ed9b73dba71e.jpg')).buffer(),
     sourceUrl: 'www.instagram.com/Lakshan.O_o'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
-           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()
+           thumbnail: await (await fetch('https://telegra.ph/file/e9446e3e4ed9b73dba71e.jpg')).buffer()
 }
      }
     })
@@ -514,14 +514,14 @@ ptt: false, seconds: 0,contextInfo: {
  mediaUrl: sgc,
     mediaType: 2, 
     description: sgc,
-    title: "Kᴛɪᴋ .sᴏᴜɴᴅᴍᴇɴᴜ ᴜɴᴛᴋ ʏɢ ʟᴀɪɴ",
+    title: "Do you want to see soundmenu? then type .soundmenu",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/e9446e3e4ed9b73dba71e.jpg')).buffer(),
     sourceUrl: sgc
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
-           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
+           thumbnail: await (await fetch('https://telegra.ph/file/e9446e3e4ed9b73dba71e.jpg')).buffer()*/
 }
      }
     })
@@ -571,7 +571,7 @@ return [ye, ' *Years 🗓️*\n',mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h
 }
 function ucapan() {
 const time = moment.tz('Asia/Jakarta').format('HH')
-let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+let res = "are not you sleep? 🥱"
 if (time >= 4) {
 res = "Pagi Lord 🌄"
 }
