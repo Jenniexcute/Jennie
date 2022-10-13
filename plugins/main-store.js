@@ -41,7 +41,7 @@ let wibb = `${wktuwib}`
 
 let info = 
 `
-Belum Tau Mau Jual Apa:)
+Don't know what to sell:)
 `
   /*  {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
@@ -92,7 +92,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
             mentionedJid: [m.sender]
         }
     })
-   m.reply('☑️ Pesan Telah terkirim ke Owner!\n_*Menunggu confirmasi Dari Owner...*_')
+   m.reply('☑️ Message has been sent to the owner!\n_*Waiting for confirmation from the owner...*_')
   break
   case 'aa': {
   m.reply('ʜᴀʟᴏ:ᴠ')
@@ -103,7 +103,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
   if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
   throw false
   }
-  /* m.reply('☑️ Pesan Telah terkirim ke Owner!\n_*Menunggu confirmasi Dari Owner...*_')*/
+  /* m.reply('☑️ Message has been sent to the owner!\n_*Waiting for confirmation from the owner......*_')*/
 }
 
 handler.help = ['store']
@@ -114,7 +114,7 @@ export default handler
 
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  let res = "It's early, how come you haven't slept, Sis? 🥱"
   if (time >= 4) {
     res = "Pagi Lord 🌄"
   }
